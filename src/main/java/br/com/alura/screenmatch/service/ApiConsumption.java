@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 
 public class ApiConsumption {
 
-    public String ObtainingData(String address){
+    public String obtainingData(String address){
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(address))
